@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/877/problem/B" target="_blank" rel="noopener noreferrer">877B — Nikita and string</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1500 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 877B](https://codeforces.com/contest/877/problem/B) |
+
+## Topics
+`brute force` `dp`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Nikita and string</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>One day Nikita found the string containing letters "<span class="tex-font-style-tt">a</span>" and "<span class="tex-font-style-tt">b</span>" only. </p><p>Nikita thinks that string is beautiful if it can be cut into <span class="tex-span">3</span> strings (possibly empty) without changing the order of the letters, where the <span class="tex-span">1</span>-st and the <span class="tex-span">3</span>-rd one contain only letters "<span class="tex-font-style-tt">a</span>" and the <span class="tex-span">2</span>-nd contains only letters "<span class="tex-font-style-tt">b</span>".</p><p>Nikita wants to make the string beautiful by removing some (possibly none) of its characters, but without changing their order. What is the maximum length of the string he can get?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a non-empty string of length not greater than <span class="tex-span">5 000</span> containing only lowercase English letters "<span class="tex-font-style-tt">a</span>" and "<span class="tex-font-style-tt">b</span>". </p></div><div class="output-specification"><div class="section-title">Output</div><p>Print a single integer — the maximum possible size of beautiful string Nikita can get.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008947800869148768" id="id004064640993192785" class="input-output-copier">Copy</div></div><pre id="id008947800869148768">abba<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id008034835657821269" id="id003924455008801683" class="input-output-copier">Copy</div></div><pre id="id008034835657821269">4</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007651705341962498" id="id008428652009554947" class="input-output-copier">Copy</div></div><pre id="id007651705341962498">bab<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006007306885485664" id="id009083917984347412" class="input-output-copier">Copy</div></div><pre id="id006007306885485664">2</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>It the first sample the string is already beautiful.</p><p>In the second sample he needs to delete one of "<span class="tex-font-style-tt">b</span>" to make it beautiful.</p></div>
