@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 160 | 31 |
+| 174 | 31 |
 
 ---
 
@@ -14,31 +14,31 @@
 
 - [*special](#special) (3)
 - [2-sat](#2-sat) (2)
-- [Uncategorized](#uncategorized) (4)
-- [binary search](#binary-search) (21)
-- [bitmasks](#bitmasks) (14)
-- [brute force](#brute-force) (45)
-- [combinatorics](#combinatorics) (18)
-- [constructive algorithms](#constructive-algorithms) (43)
-- [data structures](#data-structures) (16)
+- [Uncategorized](#uncategorized) (5)
+- [binary search](#binary-search) (23)
+- [bitmasks](#bitmasks) (15)
+- [brute force](#brute-force) (51)
+- [combinatorics](#combinatorics) (19)
+- [constructive algorithms](#constructive-algorithms) (46)
+- [data structures](#data-structures) (17)
 - [dfs and similar](#dfs-and-similar) (11)
 - [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (25)
+- [dp](#dp) (26)
 - [dsu](#dsu) (6)
 - [fft](#fft) (1)
-- [games](#games) (4)
+- [games](#games) (5)
 - [geometry](#geometry) (1)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (10)
-- [greedy](#greedy) (65)
+- [greedy](#greedy) (72)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (34)
+- [implementation](#implementation) (38)
 - [interactive](#interactive) (1)
-- [math](#math) (65)
+- [math](#math) (73)
 - [matrices](#matrices) (1)
 - [number theory](#number-theory) (19)
 - [shortest paths](#shortest-paths) (5)
-- [sortings](#sortings) (20)
+- [sortings](#sortings) (22)
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (9)
 - [trees](#trees) (6)
@@ -68,12 +68,14 @@
 | 1291D | [Irreducible Anagrams](https://codeforces.com/contest/1291/problem/D) | Unrated | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/1291/D%20-%20Irreducible%20Anagrams/solution.cpp) |
 | 2078C | [Breach of Faith](https://codeforces.com/contest/2078/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2078/C%20-%20Breach%20of%20Faith/solution.cpp) |
 | 2090D | [Simple Permutation](https://codeforces.com/contest/2090/problem/D) | Unrated | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2090/D%20-%20Simple%20Permutation/solution.cpp) |
+| 2098C | [Sports Betting](https://codeforces.com/contest/2098/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2098/C%20-%20Sports%20Betting/solution.cpp) |
 | 102697040 | [Valid Sudoku](https://codeforces.com/contest/102697/problem/040) | Unrated | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/102697/040%20-%20Valid%20Sudoku/solution.cpp) |
 
 ### binary search
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 96B | [Lucky Numbers (easy)](https://codeforces.com/contest/96/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/96/B%20-%20Lucky%20Numbers%20(easy)/solution.cpp) |
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
 | 204A | [Little Elephant and Interval](https://codeforces.com/contest/204/problem/A) | 1500 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/204/A%20-%20Little%20Elephant%20and%20Interval/solution.cpp) |
 | 743B | [Chloe and the sequence ](https://codeforces.com/contest/743/problem/B) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/743/B%20-%20Chloe%20and%20the%20sequence%20/solution.cpp) |
@@ -95,11 +97,13 @@
 | 2086B | [Large Array and Segments](https://codeforces.com/contest/2086/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2086/B%20-%20Large%20Array%20and%20Segments/solution.cpp) |
 | 2091D | [Place of the Olympiad](https://codeforces.com/contest/2091/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2091/D%20-%20Place%20of%20the%20Olympiad/solution.cpp) |
 | 2093E | [Min Max MEX](https://codeforces.com/contest/2093/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2093/E%20-%20Min%20Max%20MEX/solution.cpp) |
+| 2103C | [Median Splits](https://codeforces.com/contest/2103/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2103/C%20-%20Median%20Splits/solution.cpp) |
 
 ### bitmasks
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 96B | [Lucky Numbers (easy)](https://codeforces.com/contest/96/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/96/B%20-%20Lucky%20Numbers%20(easy)/solution.cpp) |
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
 | 467B | [Fedor and New Game](https://codeforces.com/contest/467/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/467/B%20-%20Fedor%20and%20New%20Game/solution.cpp) |
 | 484A | [Bits](https://codeforces.com/contest/484/problem/A) | 1700 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/484/A%20-%20Bits/solution.cpp) |
@@ -119,6 +123,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 96B | [Lucky Numbers (easy)](https://codeforces.com/contest/96/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/96/B%20-%20Lucky%20Numbers%20(easy)/solution.cpp) |
 | 193B | [Xor](https://codeforces.com/contest/193/problem/B) | 2000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/193/B%20-%20Xor/solution.cpp) |
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
 | 214A | [System of Equations](https://codeforces.com/contest/214/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/214/A%20-%20System%20of%20Equations/solution.cpp) |
@@ -164,6 +169,11 @@
 | 2092B | [Lady Bug](https://codeforces.com/contest/2092/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2092/B%20-%20Lady%20Bug/solution.cpp) |
 | 2093E | [Min Max MEX](https://codeforces.com/contest/2093/problem/E) | 1500 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2093/E%20-%20Min%20Max%20MEX/solution.cpp) |
 | 2093F | [Hackers and Neural Networks](https://codeforces.com/contest/2093/problem/F) | 1800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2093/F%20-%20Hackers%20and%20Neural%20Networks/solution.cpp) |
+| 2098A | [Vadim's Collection](https://codeforces.com/contest/2098/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2098/A%20-%20Vadim's%20Collection/solution.cpp) |
+| 2103A | [Common Multiple](https://codeforces.com/contest/2103/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2103/A%20-%20Common%20Multiple/solution.cpp) |
+| 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
+| 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2104/C%20-%20Card%20Game/solution.cpp) |
+| 2106A | [Dr. TC](https://codeforces.com/contest/2106/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2106/A%20-%20Dr.%20TC/solution.cpp) |
 
 ### combinatorics
 
@@ -187,6 +197,7 @@
 | 2075C | [Two Colors](https://codeforces.com/contest/2075/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2075/C%20-%20Two%20Colors/solution.cpp) |
 | 2086D | [Even String](https://codeforces.com/contest/2086/problem/D) | 1700 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2086/D%20-%20Even%20String/solution.cpp) |
 | 2092E | [She knows...](https://codeforces.com/contest/2092/problem/E) | 2100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2092/E%20-%20She%20knows.../solution.cpp) |
+| 2096D | [Wonderful Lightbulbs](https://codeforces.com/contest/2096/problem/D) | 2000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2096/D%20-%20Wonderful%20Lightbulbs/solution.cpp) |
 
 ### constructive algorithms
 
@@ -235,6 +246,9 @@
 | 2092C | [Asuna and the Mosquitoes](https://codeforces.com/contest/2092/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2092/C%20-%20Asuna%20and%20the%20Mosquitoes/solution.cpp) |
 | 2092E | [She knows...](https://codeforces.com/contest/2092/problem/E) | 2100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2092/E%20-%20She%20knows.../solution.cpp) |
 | 2096A | [Wonderful Sticks](https://codeforces.com/contest/2096/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2096/A%20-%20Wonderful%20Sticks/solution.cpp) |
+| 2096D | [Wonderful Lightbulbs](https://codeforces.com/contest/2096/problem/D) | 2000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2096/D%20-%20Wonderful%20Lightbulbs/solution.cpp) |
+| 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2104/C%20-%20Card%20Game/solution.cpp) |
+| 2106B | [St. Chroma](https://codeforces.com/contest/2106/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2106/B%20-%20St.%20Chroma/solution.cpp) |
 
 ### data structures
 
@@ -256,6 +270,7 @@
 | 2061D | [Kevin and Numbers](https://codeforces.com/contest/2061/problem/D) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2061/D%20-%20Kevin%20and%20Numbers/solution.cpp) |
 | 2071C | [Trapmigiano Reggiano](https://codeforces.com/contest/2071/problem/C) | 1700 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2071/C%20-%20Trapmigiano%20Reggiano/solution.cpp) |
 | 2084C | [You Soared Afar With Grace](https://codeforces.com/contest/2084/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2084/C%20-%20You%20Soared%20Afar%20With%20Grace/solution.cpp) |
+| 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
 
 ### dfs and similar
 
@@ -308,6 +323,7 @@
 | 2086D | [Even String](https://codeforces.com/contest/2086/problem/D) | 1700 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2086/D%20-%20Even%20String/solution.cpp) |
 | 2090B | [Pushing Balls](https://codeforces.com/contest/2090/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2090/B%20-%20Pushing%20Balls/solution.cpp) |
 | 2091B | [Team Training](https://codeforces.com/contest/2091/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2091/B%20-%20Team%20Training/solution.cpp) |
+| 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
 
 ### dsu
 
@@ -334,6 +350,7 @@
 | 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
 | 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
 | 2095B | [Plinko](https://codeforces.com/contest/2095/problem/B) | Unrated | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2095/B%20-%20Plinko/solution.cpp) |
+| 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2104/C%20-%20Card%20Game/solution.cpp) |
 
 ### geometry
 
@@ -432,6 +449,13 @@
 | 2093F | [Hackers and Neural Networks](https://codeforces.com/contest/2093/problem/F) | 1800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2093/F%20-%20Hackers%20and%20Neural%20Networks/solution.cpp) |
 | 2096A | [Wonderful Sticks](https://codeforces.com/contest/2096/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2096/A%20-%20Wonderful%20Sticks/solution.cpp) |
 | 2096B | [Wonderful Gloves](https://codeforces.com/contest/2096/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2096/B%20-%20Wonderful%20Gloves/solution.cpp) |
+| 2098A | [Vadim's Collection](https://codeforces.com/contest/2098/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2098/A%20-%20Vadim's%20Collection/solution.cpp) |
+| 2103A | [Common Multiple](https://codeforces.com/contest/2103/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2103/A%20-%20Common%20Multiple/solution.cpp) |
+| 2103B | [Binary Typewriter](https://codeforces.com/contest/2103/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2103/B%20-%20Binary%20Typewriter/solution.cpp) |
+| 2103C | [Median Splits](https://codeforces.com/contest/2103/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2103/C%20-%20Median%20Splits/solution.cpp) |
+| 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
+| 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2104/C%20-%20Card%20Game/solution.cpp) |
+| 2106B | [St. Chroma](https://codeforces.com/contest/2106/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2106/B%20-%20St.%20Chroma/solution.cpp) |
 
 ### hashing
 
@@ -445,6 +469,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 18C | [Stripe](https://codeforces.com/contest/18/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/18/C%20-%20Stripe/solution.cpp) |
+| 121A | [Lucky Sum](https://codeforces.com/contest/121/problem/A) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/121/A%20-%20Lucky%20Sum/solution.cpp) |
 | 202A | [LLPS](https://codeforces.com/contest/202/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/202/A%20-%20LLPS/solution.cpp) |
 | 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
 | 327A | [Flipping Game](https://codeforces.com/contest/327/problem/A) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/327/A%20-%20Flipping%20Game/solution.cpp) |
@@ -478,6 +503,9 @@
 | 2090A | [Treasure Hunt](https://codeforces.com/contest/2090/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2090/A%20-%20Treasure%20Hunt/solution.cpp) |
 | 2090B | [Pushing Balls](https://codeforces.com/contest/2090/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2090/B%20-%20Pushing%20Balls/solution.cpp) |
 | 2092B | [Lady Bug](https://codeforces.com/contest/2092/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2092/B%20-%20Lady%20Bug/solution.cpp) |
+| 2103A | [Common Multiple](https://codeforces.com/contest/2103/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2103/A%20-%20Common%20Multiple/solution.cpp) |
+| 2103C | [Median Splits](https://codeforces.com/contest/2103/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2103/C%20-%20Median%20Splits/solution.cpp) |
+| 2104B | [Move to the End](https://codeforces.com/contest/2104/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2104/B%20-%20Move%20to%20the%20End/solution.cpp) |
 
 ### interactive
 
@@ -554,6 +582,14 @@
 | 2093B | [Expensive Number](https://codeforces.com/contest/2093/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2093/B%20-%20Expensive%20Number/solution.cpp) |
 | 2093C | [Simple Repetition](https://codeforces.com/contest/2093/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2093/C%20-%20Simple%20Repetition/solution.cpp) |
 | 2096B | [Wonderful Gloves](https://codeforces.com/contest/2096/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2096/B%20-%20Wonderful%20Gloves/solution.cpp) |
+| 2096D | [Wonderful Lightbulbs](https://codeforces.com/contest/2096/problem/D) | 2000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2096/D%20-%20Wonderful%20Lightbulbs/solution.cpp) |
+| 2098B | [Sasha and the Apartment Purchase](https://codeforces.com/contest/2098/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2098/B%20-%20Sasha%20and%20the%20Apartment%20Purchase/solution.cpp) |
+| 2103A | [Common Multiple](https://codeforces.com/contest/2103/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2103/A%20-%20Common%20Multiple/solution.cpp) |
+| 2103B | [Binary Typewriter](https://codeforces.com/contest/2103/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2103/B%20-%20Binary%20Typewriter/solution.cpp) |
+| 2104A | [Three Decks](https://codeforces.com/contest/2104/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2104/A%20-%20Three%20Decks/solution.cpp) |
+| 2104C | [Card Game](https://codeforces.com/contest/2104/problem/C) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2104/C%20-%20Card%20Game/solution.cpp) |
+| 2106A | [Dr. TC](https://codeforces.com/contest/2106/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2106/A%20-%20Dr.%20TC/solution.cpp) |
+| 2106B | [St. Chroma](https://codeforces.com/contest/2106/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2106/B%20-%20St.%20Chroma/solution.cpp) |
 
 ### matrices
 
@@ -619,6 +655,8 @@
 | 2091B | [Team Training](https://codeforces.com/contest/2091/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2091/B%20-%20Team%20Training/solution.cpp) |
 | 2092A | [Kamilka and the Sheep](https://codeforces.com/contest/2092/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2092/A%20-%20Kamilka%20and%20the%20Sheep/solution.cpp) |
 | 2096B | [Wonderful Gloves](https://codeforces.com/contest/2096/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2096/B%20-%20Wonderful%20Gloves/solution.cpp) |
+| 2098B | [Sasha and the Apartment Purchase](https://codeforces.com/contest/2098/problem/B) | 1400 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2098/B%20-%20Sasha%20and%20the%20Apartment%20Purchase/solution.cpp) |
+| 2103C | [Median Splits](https://codeforces.com/contest/2103/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2103/C%20-%20Median%20Splits/solution.cpp) |
 
 ### string suffix structures
 
