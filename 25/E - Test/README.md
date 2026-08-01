@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/25/problem/E" target="_blank" rel="noopener noreferrer">25E — Test</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 2200 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 25E](https://codeforces.com/contest/25/problem/E) |
+
+## Topics
+`hashing` `strings`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">E. Test</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>Sometimes it is hard to prepare tests for programming problems. Now Bob is preparing tests to new problem about strings — input data to his problem is one string. Bob has 3 wrong solutions to this problem. The first gives the wrong answer if the input data contains the substring <span class="tex-span"><i>s</i><sub class="lower-index">1</sub></span>, the second enters an infinite loop if the input data contains the substring <span class="tex-span"><i>s</i><sub class="lower-index">2</sub></span>, and the third requires too much memory if the input data contains the substring <span class="tex-span"><i>s</i><sub class="lower-index">3</sub></span>. Bob wants these solutions to fail single test. What is the minimal length of test, which couldn't be passed by all three Bob's solutions?</p></div><div class="input-specification"><div class="section-title">Input</div><p>There are exactly 3 lines in the input data. The <span class="tex-span"><i>i</i></span>-th line contains string <span class="tex-span"><i>s</i><sub class="lower-index"><i>i</i></sub></span>. All the strings are non-empty, consists of lowercase Latin letters, the length of each string doesn't exceed <span class="tex-span">10<sup class="upper-index">5</sup></span>.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output one number — what is minimal length of the string, containing <span class="tex-span"><i>s</i><sub class="lower-index">1</sub></span>, <span class="tex-span"><i>s</i><sub class="lower-index">2</sub></span> and <span class="tex-span"><i>s</i><sub class="lower-index">3</sub></span> as substrings.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0034322290879957196" id="id00054591603237804875" class="input-output-copier">Copy</div></div><pre id="id0034322290879957196">ab<br>bc<br>cd<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0014807531279110986" id="id007840547478168759" class="input-output-copier">Copy</div></div><pre id="id0014807531279110986">4<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id003727271001974616" id="id004082368451054408" class="input-output-copier">Copy</div></div><pre id="id003727271001974616">abacaba<br>abaaba<br>x<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006286593838266947" id="id0008223627178019488" class="input-output-copier">Copy</div></div><pre id="id006286593838266947">11<br></pre></div></div></div>
