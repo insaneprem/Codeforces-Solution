@@ -6,28 +6,144 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 2 |
+| 16 | 14 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [dp](#dp) (1)
-- [greedy](#greedy) (1)
+- [binary search](#binary-search) (3)
+- [bitmasks](#bitmasks) (1)
+- [brute force](#brute-force) (5)
+- [constructive algorithms](#constructive-algorithms) (4)
+- [data structures](#data-structures) (2)
+- [dp](#dp) (3)
+- [games](#games) (1)
+- [greedy](#greedy) (10)
+- [implementation](#implementation) (4)
+- [math](#math) (6)
+- [number theory](#number-theory) (1)
+- [sortings](#sortings) (3)
+- [strings](#strings) (1)
+- [two pointers](#two-pointers) (2)
 
 ---
+
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.cpp) |
+| 2051B | [Journey](https://codeforces.com/contest/2051/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2051/B%20-%20Journey/solution.cpp) |
+| 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
+
+### bitmasks
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.cpp) |
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/1826/D%20-%20Running%20Miles/solution.cpp) |
+| 2043A | [Coin Transformation](https://codeforces.com/contest/2043/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2043/A%20-%20Coin%20Transformation/solution.cpp) |
+| 2048A | [Kevin and Combination Lock](https://codeforces.com/contest/2048/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/A%20-%20Kevin%20and%20Combination%20Lock/solution.cpp) |
+| 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.cpp) |
+| 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.cpp) |
+
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2048B | [Kevin and Permutation](https://codeforces.com/contest/2048/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/B%20-%20Kevin%20and%20Permutation/solution.cpp) |
+| 2051C | [Preparing for the Exam](https://codeforces.com/contest/2051/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2051/C%20-%20Preparing%20for%20the%20Exam/solution.cpp) |
+| 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
+| 2057A | [MEX Table](https://codeforces.com/contest/2057/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2057/A%20-%20MEX%20Table/solution.cpp) |
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
+| 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.cpp) |
 
 ### dp
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
 | 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.cpp) |
+| 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/1826/D%20-%20Running%20Miles/solution.cpp) |
+
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
 
 ### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.cpp) |
+| 1826D | [Running Miles](https://codeforces.com/contest/1826/problem/D) | 1700 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/1826/D%20-%20Running%20Miles/solution.cpp) |
+| 2048A | [Kevin and Combination Lock](https://codeforces.com/contest/2048/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/A%20-%20Kevin%20and%20Combination%20Lock/solution.cpp) |
+| 2048B | [Kevin and Permutation](https://codeforces.com/contest/2048/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/B%20-%20Kevin%20and%20Permutation/solution.cpp) |
+| 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.cpp) |
+| 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.cpp) |
+| 2049A | [MEX Destruction](https://codeforces.com/contest/2049/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2049/A%20-%20MEX%20Destruction/solution.cpp) |
+| 2051A | [Preparing for the Olympiad](https://codeforces.com/contest/2051/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2051/A%20-%20Preparing%20for%20the%20Olympiad/solution.cpp) |
+| 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
+| 2057B | [Gorilla and the Exam](https://codeforces.com/contest/2057/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2057/B%20-%20Gorilla%20and%20the%20Exam/solution.cpp) |
+
+### implementation
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2048A | [Kevin and Combination Lock](https://codeforces.com/contest/2048/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/A%20-%20Kevin%20and%20Combination%20Lock/solution.cpp) |
+| 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.cpp) |
+| 2049A | [MEX Destruction](https://codeforces.com/contest/2049/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2049/A%20-%20MEX%20Destruction/solution.cpp) |
+| 2051C | [Preparing for the Exam](https://codeforces.com/contest/2051/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2051/C%20-%20Preparing%20for%20the%20Exam/solution.cpp) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
+| 2043A | [Coin Transformation](https://codeforces.com/contest/2043/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2043/A%20-%20Coin%20Transformation/solution.cpp) |
+| 2048A | [Kevin and Combination Lock](https://codeforces.com/contest/2048/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/A%20-%20Kevin%20and%20Combination%20Lock/solution.cpp) |
+| 2051B | [Journey](https://codeforces.com/contest/2051/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2051/B%20-%20Journey/solution.cpp) |
+| 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
+| 2057A | [MEX Table](https://codeforces.com/contest/2057/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2057/A%20-%20MEX%20Table/solution.cpp) |
+
+### number theory
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2048A | [Kevin and Combination Lock](https://codeforces.com/contest/2048/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/A%20-%20Kevin%20and%20Combination%20Lock/solution.cpp) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.cpp) |
+| 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
+| 2057B | [Gorilla and the Exam](https://codeforces.com/contest/2057/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2057/B%20-%20Gorilla%20and%20the%20Exam/solution.cpp) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.cpp) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2048D | [Kevin and Competition Memories](https://codeforces.com/contest/2048/problem/D) | 1600 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2048/D%20-%20Kevin%20and%20Competition%20Memories/solution.cpp) |
+| 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++20 (GCC 13-64)](https://github.com/insaneprem/Codeforces-Solution/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
 
 ---
 
