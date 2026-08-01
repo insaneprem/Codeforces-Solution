@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/365/problem/A" target="_blank" rel="noopener noreferrer">365A — Good Number</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1100 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 365A](https://codeforces.com/contest/365/problem/A) |
+
+## Topics
+`implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Good Number</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>Let's call a number <span class="tex-span"><i>k</i></span>-good if it contains all digits not exceeding <span class="tex-span"><i>k</i></span> (<span class="tex-span">0, ..., <i>k</i></span>). You've got a number <span class="tex-span"><i>k</i></span> and an array <span class="tex-span"><i>a</i></span> containing <span class="tex-span"><i>n</i></span> numbers. Find out how many <span class="tex-span"><i>k</i></span>-good numbers are in <span class="tex-span"><i>a</i></span> (count each number every time it occurs in array <span class="tex-span"><i>a</i></span>).</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains integers <span class="tex-span"><i>n</i></span> and <span class="tex-span"><i>k</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 100</span>, <span class="tex-span">0 ≤ <i>k</i> ≤ 9</span>). The <span class="tex-span"><i>i</i></span>-th of the following <span class="tex-span"><i>n</i></span> lines contains integer <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub></span> without leading zeroes (<span class="tex-span">1 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub> ≤ 10<sup class="upper-index">9</sup></span>).</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print a single integer — the number of <span class="tex-span"><i>k</i></span>-good numbers in <span class="tex-span"><i>a</i></span>.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0088809063166174" id="id0009221896304064836" class="input-output-copier">Copy</div></div><pre id="id0088809063166174">10 6<br>1234560<br>1234560<br>1234560<br>1234560<br>1234560<br>1234560<br>1234560<br>1234560<br>1234560<br>1234560<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0027653334515302785" id="id009195040592854128" class="input-output-copier">Copy</div></div><pre id="id0027653334515302785">10<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id00693140846738035" id="id0005253541759112523" class="input-output-copier">Copy</div></div><pre id="id00693140846738035">2 1<br>1<br>10<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0016359595912925473" id="id0013464028639759773" class="input-output-copier">Copy</div></div><pre id="id0016359595912925473">1<br></pre></div></div></div>
