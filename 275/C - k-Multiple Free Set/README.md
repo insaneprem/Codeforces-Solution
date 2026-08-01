@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/275/problem/C" target="_blank" rel="noopener noreferrer">275C — k-Multiple Free Set</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | Unrated |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 275C](https://codeforces.com/contest/275/problem/C) |
+
+## Topics
+_No tags available_
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">C. k-Multiple Free Set</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>A <span class="tex-span"><i>k</i></span>-multiple free set is a set of integers where there is no pair of integers where one is equal to another integer multiplied by <span class="tex-span"><i>k</i></span>. That is, there are no two integers <span class="tex-span"><i>x</i></span> and <span class="tex-span"><i>y</i></span> <span class="tex-span">(<i>x</i> < <i>y</i>)</span> from the set, such that <span class="tex-span"><i>y</i> = <i>x</i>·<i>k</i></span>.</p><p>You're given a set of <span class="tex-span"><i>n</i></span> distinct positive integers. Your task is to find the size of it's largest <span class="tex-span"><i>k</i></span>-multiple free subset.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains two integers <span class="tex-span"><i>n</i></span> and <span class="tex-span"><i>k</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 10<sup class="upper-index">5</sup>, 1 ≤ <i>k</i> ≤ 10<sup class="upper-index">9</sup></span>). The next line contains a list of <span class="tex-span"><i>n</i></span> distinct positive integers <span class="tex-span"><i>a</i><sub class="lower-index">1</sub>, <i>a</i><sub class="lower-index">2</sub>, ..., <i>a</i><sub class="lower-index"><i>n</i></sub></span> <span class="tex-span">(1 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub> ≤ 10<sup class="upper-index">9</sup>)</span>.</p><p>All the numbers in the lines are separated by single spaces.</p></div><div class="output-specification"><div class="section-title">Output</div><p>On the only line of the output print the size of the largest <span class="tex-span"><i>k</i></span>-multiple free subset of <span class="tex-span">{<i>a</i><sub class="lower-index">1</sub>, <i>a</i><sub class="lower-index">2</sub>, ..., <i>a</i><sub class="lower-index"><i>n</i></sub>}</span>.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005374574861827469" id="id0022464659496573514" class="input-output-copier">Copy</div></div><pre id="id005374574861827469">6 2<br>2 3 6 5 4 10<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0007345788706393885" id="id004859701014300595" class="input-output-copier">Copy</div></div><pre id="id0007345788706393885">3<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the sample input one of the possible maximum 2-multiple free subsets is {4, 5, 6}.</p></div>
