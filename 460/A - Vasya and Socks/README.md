@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/460/problem/A" target="_blank" rel="noopener noreferrer">460A — Vasya and Socks</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 460A](https://codeforces.com/contest/460/problem/A) |
+
+## Topics
+`brute force` `implementation` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Vasya and Socks</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>Vasya has <span class="tex-span"><i>n</i></span> pairs of socks. In the morning of each day Vasya has to put on a pair of socks before he goes to school. When he comes home in the evening, Vasya takes off the used socks and throws them away. Every <span class="tex-span"><i>m</i></span>-th day (at days with numbers <span class="tex-span"><i>m</i>, 2<i>m</i>, 3<i>m</i>, ...</span>) mom buys a pair of socks to Vasya. She does it late in the evening, so that Vasya cannot put on a new pair of socks before the next day. How many consecutive days pass until Vasya runs out of socks?</p></div><div class="input-specification"><div class="section-title">Input</div><p>The single line contains two integers <span class="tex-span"><i>n</i></span> and <span class="tex-span"><i>m</i></span> <span class="tex-span">(1 ≤ <i>n</i> ≤ 100; 2 ≤ <i>m</i> ≤ 100)</span>, separated by a space.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Print a single integer — the answer to the problem.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0024262027805654673" id="id0008723865996964908" class="input-output-copier">Copy</div></div><pre id="id0024262027805654673">2 2<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0025068144164783435" id="id0024050248064707103" class="input-output-copier">Copy</div></div><pre id="id0025068144164783435">3<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id003269217911461333" id="id0017433253100406676" class="input-output-copier">Copy</div></div><pre id="id003269217911461333">9 3<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0009973691666855278" id="id006895310567885408" class="input-output-copier">Copy</div></div><pre id="id0009973691666855278">13<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first sample Vasya spends the first two days wearing the socks that he had initially. Then on day three he puts on the socks that were bought on day two.</p><p>In the second sample Vasya spends the first nine days wearing the socks that he had initially. Then he spends three days wearing the socks that were bought on the third, sixth and ninth days. Than he spends another day wearing the socks that were bought on the twelfth day.</p></div>
