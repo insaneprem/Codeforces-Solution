@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/47/problem/B" target="_blank" rel="noopener noreferrer">47B — Coins</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1200 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 47B](https://codeforces.com/contest/47/problem/B) |
+
+## Topics
+`implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Coins</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>One day Vasya came across three Berland coins. They didn't have any numbers that's why Vasya didn't understand how their denominations differ. He supposed that if one coin is heavier than the other one, then it should be worth more. Vasya weighed all the three pairs of coins on pan balance scales and told you the results. Find out how the deminations of the coins differ or if Vasya has a mistake in the weighting results. No two coins are equal.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The input data contains the results of all the weighting, one result on each line. It is guaranteed that every coin pair was weighted exactly once. Vasya labelled the coins with letters «<span class="tex-font-style-tt">A</span>», «<span class="tex-font-style-tt">B</span>» and «<span class="tex-font-style-tt">C</span>». Each result is a line that appears as (letter)(> or < sign)(letter). For example, if coin "<span class="tex-font-style-tt">A</span>" proved lighter than coin "<span class="tex-font-style-tt">B</span>", the result of the weighting is <span class="tex-font-style-tt">A<B</span>.</p></div><div class="output-specification"><div class="section-title">Output</div><p>It the results are contradictory, print <span class="tex-font-style-tt">Impossible</span>. Otherwise, print without spaces the rearrangement of letters «<span class="tex-font-style-tt">A</span>», «<span class="tex-font-style-tt">B</span>» and «<span class="tex-font-style-tt">C</span>» which represent the coins in the increasing order of their weights.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id003456657191061593" id="id009226804293788935" class="input-output-copier">Copy</div></div><pre id="id003456657191061593">A>B<br>C<B<br>A>C<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00860045052191922" id="id005054736856734676" class="input-output-copier">Copy</div></div><pre id="id00860045052191922">CBA</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008275615014345825" id="id0018713434347061098" class="input-output-copier">Copy</div></div><pre id="id008275615014345825">A<B<br>B>C<br>C>A<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003283904878625814" id="id007719495681653272" class="input-output-copier">Copy</div></div><pre id="id003283904878625814">ACB</pre></div></div></div>
